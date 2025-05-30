@@ -13,8 +13,8 @@ func main() {
 	var age2 int = 19
 	fmt.Println("age2 = ", age2) /*输出：age2 =  19*/
 	/*变量的重复定义会报错：
-	  ./variable01.go:19:6: age redeclared in this block
-	        ./variable01.go:7:6: other declaration of age
+	./variable01.go:19:6: age redeclared in this block
+	      ./variable01.go:7:6: other declaration of age
 	*/
 	//var age int = 20
 	//fmt.Println("age = ", age)

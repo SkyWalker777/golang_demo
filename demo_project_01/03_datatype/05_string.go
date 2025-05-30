@@ -8,7 +8,7 @@ func main() {
 	fmt.Println(s1)
 	//2.字符串是不可变的：指的是字符串一旦定义好，其中的字符的值不能改变
 	var s2 string = "abc"
-	//s2 = "def"
+	s2 = "def"
 	//s2[0] = 't'
 	fmt.Println(s2)
 	//3.字符串的表示形式：
